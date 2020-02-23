@@ -1,27 +1,44 @@
 {
-    "name": "random-quote-machine",
-    "version": "1.0.0",
-    "description": "Build a Random Quote Machine. A Free Code Camp Front End Project.",
-    "main": "index.js",
-    "scripts": {
-        "build-task:scss-compile": "node-sass-chokidar --source-map true resources/sass/ -o public/css",
-        "build-task:autoprefixer": "postcss public/css/*.css --use autoprefixer -d public/css",
-        "sass:build": "npm-run-all -p build-task:*",
-        "sass:watch": "chokidar 'resources/sass/**/*.scss' -c 'npm run sass:build'",
-        "dev": "npm-run-all -p sass:*",
-        "start": "node index"
-    },
-    "author": "minhkashyu",
-    "license": "MIT",
-    "dependencies": {
-        "express": "^4.15.3"
-    },
-    "devDependencies": {
-        "dotenv": "^4.0.0",
-        "autoprefixer": "^7.1.2",
-        "chokidar-cli": "^1.2.0",
-        "node-sass-chokidar": "^0.0.3",
-        "npm-run-all": "^4.0.2",
-        "postcss-cli": "^4.1.0"
-    }
+  "name": "random-quote-machine",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Minh Ta",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-brands-svg-icons": "^5.12.1",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.1",
+    "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.13.1",
+    "popper.js": "^1.16.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

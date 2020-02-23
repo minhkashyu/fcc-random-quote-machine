@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 32px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius; /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  -moz-border-radius: $radius; /* Firefox 1-3.6 */
+  -ms-border-radius: $radius;
+  border-radius: $radius; /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+}
+
+body {
+  text-align: center;
+}
+
+#quote-box {
+  display: inline-block;
+  min-width: 200px;
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  @include border-radius(8px);
+}
+
+.btn-quote {
+  color: white;
+
+  &:focus,
+  &:hover {
+    background-color: #353535 !important;
+    color: white;
+  }
+}
+
+#tweet-quote {
+  float: left;
+}
+
+#new-quote {
+  float: right;
+}
+
+.site-footer p {
+  color: white !important;
+}
