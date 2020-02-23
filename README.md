@@ -1,11 +1,13 @@
-#Free Code Camp
-#Front End Libraries Projects - Build a Random Quote Machine
+# Free Code Camp
 
-You can run it at https://codepen.io/minhkashyu/full/yMaGWL/
+# Front End Libraries Projects - Build a Random Quote Machine
 
-## Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/qRZeGZ.
+You can run it at https://codepen.io/minhkashyu/full/VwLmVoP
+
+* Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/qRZeGZ.
 
 ## User Stories
+
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
 
 You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks.
@@ -32,7 +34,8 @@ You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and
 
 * User Story #11: The #quote-box wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.
 
-#Create React App
+
+# Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
